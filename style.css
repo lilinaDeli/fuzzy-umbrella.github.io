@@ -131,6 +131,10 @@
       border: 1px solid #808080;
   }
 
+  .login_input {
+      margin-top: 56px;
+  }
+
   .button_form {
       margin-top: 56px;
       margin-bottom: 56px;
@@ -318,6 +322,10 @@
       gap: 50px;
   }
 
+  .student_a {
+      text-decoration: none;
+  }
+
   img {
       display: block;
   }
@@ -422,6 +430,11 @@
 
   /* about */
 
+  .content_about {
+      padding-left: calc(50% - 868px / 2);
+      padding-right: calc(50% - 868px / 2);
+  }
+
   .curs {
       max-width: 868px;
       margin-left: auto;
@@ -455,8 +468,8 @@
       width: 100%;
       max-width: 820px;
       margin-top: 15px;
-      border: 0;
-      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
   }
 
   /* lil */

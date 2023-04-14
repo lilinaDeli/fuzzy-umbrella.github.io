@@ -35,12 +35,16 @@
             <div class="curs">
                 <h2 class="oc">О курсе &#128241;</h2>
                 <h3 class="look">Посмотрите видео о нас</h3>
-
-                <iframe class="video" width="820" height="549" src="https://www.youtube.com/embed/B9E8I0NUwbs"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
             </div>
+            <video class="video" poster="img/video.jpg" controls>
+                <source src="img/video.mp4" type="video/mp4">
+                <source src="video.ogg" type="video/ogg">
+                <source src="video.webm" type="video/webm">
+                <object data="video.mp4" width="820" height="549">
+                    <embed src="img/video.mp4" width="820" height="549">
+                </object>
+            </video>
+
         </main>
     </div>
     <footer class="footer">
@@ -51,7 +55,7 @@
         <form class="registration" action="#">
             <h2 class="input_text">Войти на сайт</h2>
             <input class="login" type="text" placeholder="Логин">
-            <input class="login" type="password" placeholder="Пароль">
+            <input class="login login_input" type="password" placeholder="Пароль">
             <button type="submit" class="button button_form">Войти</button>
         </form>
     </div>
